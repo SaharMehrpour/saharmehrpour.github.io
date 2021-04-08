@@ -79,7 +79,6 @@
 						<li><a href="#" data-nav-section="research">Research</a></li>
 						<li><a href="#" data-nav-section="news">News</a></li>
 						<li><a href="#" data-nav-section="education">Education</a></li>
-						<li><a href="#" data-nav-section="archived_projects">Archived Projects</a></li>
 						<li><a href="#" data-nav-section="CV">CV and Resume</a></li>
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 					</ul>
@@ -106,14 +105,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="about-desc">
 										<h2 class="colorlib-heading">About Me</h2>
 										<p>
-											I am a third-year Ph.D. student in Computer Science at the <a href="https://www.cs.gmu.edu" rel="noopener">George Mason</a>
+											I am a Ph.D. student in Computer Science at the <a href="https://www.cs.gmu.edu" rel="noopener">George Mason</a>
 											University under supervision of
 											<a href="https://cs.gmu.edu/~tlatoza/" rel="noopener">Dr. Thomas LaToza</a>
 											in <a href="https://devx.cs.gmu.edu" rel="noopener">Developer Experience Design Lab</a>.
 										</p>
 										<p>
-											My research is studying the barriers developers face when working with design decisions and examine possible solutions.
-											I am exploring approaches to help developers document their decisions with minimum overhead and maximum benefits!
+											My research is lying in the intersection of software engineering and HCI.
+											I study how developers can work with design decisions and explore the barriers developers face when working with the decisions.
+											I am researching on tools and approaches to help developers document, follow, and find design decisions.
 										</p>
 									</div>
 								</div>
@@ -134,10 +134,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										<h2 class="colorlib-heading">My Research</h2>
 
 										<div class="col-md-12 void-animate-box">
-											<h3>Active Documentation</h3>
+											<h3>Active Documentation (VL/HCC 2019)</h3>
 
 											<div>
-												<img src="images/ActiveDocumentationScreenShot.png"
+												<img src="images/ActiveDocumentation.png"
 													 alt="Active Documentation" style="width: 100%"/>
 											</div>
 										</div>
@@ -154,6 +154,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 												are satisfied and which are violated, notifying developers who miss
 												design decisions about the existence of these design decisions.
 											</p>
+
+											<p>
+												ActiveDocumentation is a tool that helps developers follow design decisions
+												by making the constraints of decisions explicit and checkable as AST queries.
+												ActiveDocumentation checks code for conformance constantly and notifies the
+												users about violations of decisions. It also extracts example code snippets
+												that follow the decisions enabling developers to use them as references and
+												learn how to follow the decisions.
+											</p>
 											<p>
 												<em>Sahar Mehrpour, <a href="https://cs.gmu.edu/~tlatoza/"
 																	   rel="noopener">Thomas D. LaToza</a>, Rahul K.
@@ -168,7 +177,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 															rel="noopener">Slides</a>,
 													<a href="http://mason.gmu.edu/~smehrpou/ActiveDocumentation"
 													   rel="noopener">Replication Package</a>,
-													<a href="https://www.youtube.com/watch?v=_AT8sNj02Ss" ,
+													<a href="https://www.youtube.com/watch?v=_AT8sNj02Ss"
 													   rel="noopener">Demo</a>
 												</em>
 											</p>
@@ -176,11 +185,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 
 										<div class="col-md-12 void-animate-box"  style="margin-top: 50px">
-											<h3>RulePad</h3>
+											<h3>RulePad (ESEC/FSE 2020)</h3>
 
 											<div>
 												<img src="images/RulePad.png"
-													 alt="RulePad" style="height: 500px; object-fit: cover"/>
+													 alt="RulePad" style="width: 100%"/>
 											</div>
 										</div>
 										<div class="col-md-12 void-animate-box">
@@ -203,6 +212,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 												We implemented these approaches in RulePad.
 											</p>
 											<p>
+												RulePad enable novice developers to write design rules in a code-based
+												template by specifying the elements and conditions on each element.
+												While authoring rules in the tool, RulePad shows the written format of the
+												design rule along with extracted snippets from the actual codebase.
+												The former feature helps developers learn the language used in the tool and
+												later use the semi-natural language interface for authoring design rules.
+												The latter feature allows developers to validate the design rules and
+												make changes if necessary.
+											</p>
+											<p>
 												<em>Sahar Mehrpour, <a href="https://cs.gmu.edu/~tlatoza/"
 																	   rel="noopener">Thomas D. LaToza</a>, Hamed
 													Sarvari.</em>
@@ -223,6 +242,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 													   rel="noopener">Teaser (2-minute video)</a>,
 													<a href="https://www.youtube.com/watch?v=4rUYS8enKA0"
 													   rel="noopener">Presentation (17-minute video)</a>
+													<br>
+													<a href="https://devx.cs.gmu.edu/tools/rulepad"
+													   rel="noopener">Tool Playground</a>
 												</em>
 											</p>
 										</div>
@@ -407,7 +429,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="panel panel-default">
 										<div class="panel-heading" role="tab" id="headingFour">
 											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">B.c. in Computer Science (2011)
+												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">B.Sc. in Computer Science (2011)
 												</a>
 											</h4>
 										</div>
@@ -425,232 +447,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				</div>
 			</section>
 
-			<section class="colorlib-work" data-section="archived_projects">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 void-animate-box">
-							<span class="heading-meta">Old but Interesting!</span>
-							<h2 class="colorlib-heading void-animate-box">Archived Projects</h2>
-						</div>
-					</div>
-					<div class="void-animate-box">
-						<p>I have participated in many research projects and course projects. Here is the list of
-							my favorite ones.</p>
-					</div>
-					<div class="row">
-
-						<div class="col-md-6 void-animate-box">
-							<div class="project" style="background: #eeeeee;font-size: small;height: 350px">
-								<img class="project" src="images/gears-icon.svg" style="height: 100%; opacity: 0.5" alt="Project"/>
-								<div class="desc" style="background: #eeeeee">
-									<div class="con">
-										<strong>Clinical Data Visualization, 2017</strong>
-										<p>
-											This is a project is advised by <a href="http://vdl.sci.utah.edu/team/lex/">Alexander
-											Lex</a> at
-											the
-											<a href="http://www.sci.utah.edu/" target="_blank" rel="noopener">Scientific
-												Computing and
-												Imaging Institute</a>
-											at the <a href="https://www.cs.utah.edu/" target="_blank" rel="noopener">University
-											of Utah</a>.
-											I had a privilege to work on this project
-											for one semester (Spring 2017).
-											In this IRB-approved project, we tried to present a visualization of
-											clinical data of patients.
-											The target audiences for this visualization are medical doctors.
-										</p>
-										<p><em>Custom Framework <a href="http://phovea.caleydo.org/" target="_blank"
-																   rel="noopener">Phovea</a>,
-											TypeScript, Python, <a href="https://d3js.org/" target="_blank"
-																   rel="noopener">D3js</a>,
-											<a href="http://scikit-learn.org/" target="_blank" rel="noopener">scikit-learn</a>
-											Python
-											packages, CSS.</em>
-										</p>
-
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 void-animate-box">
-							<div class="project" style="background-image: url(images/ensembleVector.png);font-size: small;height: 350px">
-								<div class="desc" style="background: #eeeeee">
-									<div class="con">
-										<strong>Uncertain Visualization, 2017</strong>
-										<p><strong>Collaborators:</strong> Navid Farhoudi
-										</p>
-										<p>
-											This project was done as a course project for <a
-												href="http://www.sci.utah.edu/~beiwang/teaching/cs6170-spring-2017.html"
-												target="_blank"
-												rel="noopener">
-											Topological Data Analysis course</a> at the <a
-												href="https://www.cs.utah.edu/" target="_blank"
-												rel="noopener">University of Utah</a>
-											(Spring 2016).
-											In this project, we present a visualization of ensemble vector fields taken
-											from <a
-												href="http://iri.columbia.edu/" target="_blank" rel="noopener">
-											International Research Institute for Climate Society</a>.
-											In this project, we displayed flow, vector magnitude and Merge Tree of each
-											ensemble.
-										</p>
-										<p><em>JavaScript, <a href="https://d3js.org/" target="_blank" rel="noopener">D3js</a>
-											HTML,
-											CSS</em>
-										</p>
-										<p>
-											<a href="https://saharmehrpour.github.io/EnsembleVectorFieldVisualization/"
-											   target="_blank"
-											   rel="noopener">Demo</a>
-										</p>
-
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 void-animate-box">
-							<div class="project" style="background-image: url(images/TopicModeling.png);font-size: small;height: 350px">
-								<div class="desc" style="background: #eeeeee">
-									<div class="con">
-										<strong>Topic Modeling, 2016</strong>
-										<p><strong>Collaborators:</strong> <a href="https://www.cs.utah.edu/~tdenning/">Tamara
-											Denning</a>, Aniqua Baset
-										</p>
-										<p>
-											The conferences on Security and Privacy contain a lot of information. In this project we tried
-											to visualize the topic modeling data in 4 different conferences in 30 years. The data is
-											prepared by
-											Aniqua Baset at the <a href="https://www.cs.utah.edu/" target="_blank" rel="noopener">University
-											of Utah</a> (Fall 2016).
-										</p>
-										<p><em>JavaScript, <a href="https://d3js.org/" target="_blank" rel="noopener">D3js</a>, HTML,
-											CSS</em>
-										</p>
-										<p>
-											<a href="https://github.com/SaharMehrpour/TopicModeling"
-											   target="_blank" rel="noopener">GitHub</a>,
-											<a href="https://saharmehrpour.github.io/TopicModeling" target="_blank" rel="noopener">Demo</a>,
-											<a href="https://secprivmeta.net/#/secPriveMeta" target="_blank" rel="noopener">Demo</a> (credit to Aniqua)
-										</p>
-
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 void-animate-box">
-							<div class="project" style="background: #eeeeee;font-size: small;height: 350px">
-								<img class="project" src="images/gears-icon.svg" style="height: 100%; opacity: 0.5" alt="Project"/>
-								<div class="desc" style="background: #eeeeee">
-									<div class="con">
-										<strong>Android Malware Detection, 2016</strong>
-										<p>
-											This project is done as a course project for
-											<a href="https://svivek.com/teaching/machine-learning/fall2017/" target="_blank" rel="noopener">Machine
-												Learning</a> course at the
-											<a href="https://www.cs.utah.edu/" target="_blank" rel="noopener">University of Utah</a> (Fall
-											2016).
-											The data in this project is labeled Android Applications and we wanted to detect Malware
-											applications using classifiers.
-											We implemented the well-known classifiers from scratch: ID3 (Decision Tree), Stochastic Gradient
-											Descent For Least Squares,
-											Perceptron, Balanced Winnow, SVM (Support Vector Machine), Linear Regression, Random Forest,
-											AdaBoost.
-
-										</p>
-										<p><em>Python</em>
-										<p>
-											<a href="https://github.com/SaharMehrpour/ML_Project"
-											   target="_blank" rel="noopener">GitHub</a>,
-											<a href="https://inclass.kaggle.com/c/ml-fall2016-android-malware"
-											   target="_blank" rel="noopener">
-												Dataset</a>
-										</p>
-
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 void-animate-box">
-							<div class="project" style="background-image: url(images/MovieMiner.JPG);font-size: small;height: 350px">
-								<div class="desc" style="background: #eeeeee">
-									<div class="con">
-										<strong>Movie Miner, 2016</strong>
-										<p><strong>Collaborators:</strong> <a href="https://sunipa.github.io/">Sunipa Dev</a>, Zahra Fahimfar, Siddartha
-											Ravichandran
-										</p>
-										<p>
-											This project is done as a course project for a <a>Visualization</a> course at
-											the <a href="https://www.cs.utah.edu/" target="_blank" rel="noopener">University of Utah</a>
-											(Fall 2016).
-											MovieMiner is an interactive visualization for helping users filter and select desirable movies from
-											more than 5000 movies.
-<!--											In this project, we present a visualization for a relatively big movie dataset.-->
-<!--											The dataset consists of more than 5 thousand movies each with more 20 attributes.-->
-<!--											This dataset is based on <a href="https://www.imdb.com">IMDB</a> website.-->
-										</p>
-										<p><em>JavaScript, <a href="https://d3js.org/" target="_blank" rel="noopener">D3js</a>, HTML,
-											CSS</em>
-										</p>
-										<p>
-											<a href="https://github.com/SaharMehrpour/dataviscourse-pr-MoviesVisualization"
-											   target="_blank" rel="noopener">GitHub</a>,
-											<a href="https://saharmehrpour.github.io/dataviscourse-pr-MoviesVisualization/"
-											   target="_blank" rel="noopener">Demo</a>,
-											<a href="https://youtu.be/_eH4OpZGCIo" target="_blank" rel="noopener">Video</a>
-										</p>
-
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 void-animate-box">
-							<div class="project" style="background-image: url(images/kidgrad.png);font-size: small;height: 350px">
-								<div class="desc" style="background: #eeeeee">
-									<div class="con">
-										<strong>KiDGraD, 2015</strong>
-										<p><strong>Collaborators:</strong> <a
-												href="https://sites.google.com/site/yeganehbahoo/"
-												target="_blank" rel="noopener">Yeganeh Bahoo</a>,
-											<a href="http://cs.umanitoba.ca/~durocher/" target="_blank" rel="noopener"> Stephane
-												Durocher</a>,
-											<a href="http://cs.umanitoba.ca/~bunt/" target="_blank" rel="noopener"> Andrea Bunt</a>
-										</p>
-										<p>
-											In this project we used Microsoft Kinect&trade; for Graph Drawing. We developed an application
-											in which users can draw 2D graphs using body gestures. This project was a course project for
-											<a href="http://www.cs.umanitoba.ca/~bunt/COMP7920/" rel="noopener" target="_blank">HCI</a>
-											course
-											at the <a href="http://www.cs.umanitoba.ca/" target="_blank" rel="noopener">University of
-											Manitoba</a>.
-											We implemented the application in C# and used the information of skeleton
-											detection for graph drawing.
-										</p>
-										<p>
-											<em>C#, Microsoft Kinect&trade;</em>
-										</p>
-										<p>
-											<a href="https://link.springer.com/chapter/10.1007%2F978-3-319-27261-0_51" rel="noopener"
-											   target="_blank">Abstract</a>,
-											<a href="http://www.csun.edu/gd2015/posters/GD2015-Poster7.pdf"
-											   target="_blank" rel="noopener">Poster</a>,
-											<a href="https://github.com/SaharMehrpour/KiDGrad" target="_blank" rel="noopener">GitHub</a>
-										</p>
-
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</section>
 
 
 			<section class="colorlib-contact" data-section="CV">
