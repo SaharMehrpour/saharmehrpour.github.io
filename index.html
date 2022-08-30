@@ -105,7 +105,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="about-desc">
 										<h2 class="colorlib-heading">About Me</h2>
 										<p>
-											I am a Ph.D. student in Computer Science at the <a href="https://www.cs.gmu.edu" rel="noopener">George Mason</a>
+											I am a Ph.D. candidate in Computer Science at the <a href="https://www.cs.gmu.edu" rel="noopener">George Mason</a>
 											University under supervision of
 											<a href="https://cs.gmu.edu/~tlatoza/" rel="noopener">Dr. Thomas LaToza</a>
 											in <a href="https://devx.cs.gmu.edu" rel="noopener">Developer Experience Design Lab</a>.
@@ -132,6 +132,104 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="about-desc">
 										<!--										<span class="heading-meta">About Me</span>-->
 										<h2 class="colorlib-heading">My Research</h2>
+
+										<div class="col-md-12 void-animate-box"  style="margin-top: 50px">
+											<h3>Programming Tools for Working with Design Decisions in Code (PLATEAU 2021)</h3>
+											<div>
+												<img src="images/PLATEAU-2021.png"
+													 alt="PLATEAU" style="width: 100%"/>
+											</div>
+										</div>
+										<div class="col-md-12 void-animate-box">
+											<p>
+												When writing code, developers make design decisions by choosing between alternatives.
+												Subsequent work with code requires reasoning about these design decisions, ensuring
+												their code is consistent and answering rationale questions about why they were made.
+												While documentation might help, it is rarely updated and often incomplete and untrustworthy.
+												We propose a new form of documentation which is active, making design decisions checkable
+												and offering immediate feedback on violations as they occur. Active documentation helps
+												developers reason about design decisions by offering explanations and linked code snippets
+												illustrating how to follow a design decision. To ensure active documentation is easy
+												to create and maintain, new ways to create and edit checkable design decisions are needed.
+												We offer a vision for active documentation, offer evidence for its potential,
+												describe several techniques to achieve it, and suggest future directions for programming
+												tools to better support it.
+											</p>
+											<p>
+												<em>Sahar Mehrpour, <a href="https://cs.gmu.edu/~tlatoza/"
+																	   rel="noopener">Thomas D. LaToza</a>.</em>
+											</p>
+											<p>
+												<em>
+													<a href="https://doi.org/10.1184/R1/19787674.v1" rel="noopener">DOI</a>,
+													<a href="https://cs.gmu.edu/~tlatoza/papers/ProgrammingToolsForWorkingWithDesignDecisionsInCode.pdf"
+													   rel="noopener">Pre-Print</a>,
+													<a href="files/PLATEAU-2021-slides.pdf">Slides</a>.
+												</em>
+											</p>
+										</div>
+
+										<div class="col-md-12 void-animate-box"  style="margin-top: 50px">
+											<h3>RulePad (ESEC/FSE 2020)</h3>
+											<div>
+												<img src="images/RulePad.png"
+													 alt="RulePad" style="width: 100%"/>
+											</div>
+										</div>
+										<div class="col-md-12 void-animate-box">
+											<p>
+												Good documentation offers the promise of enabling developers to easily
+												understand design decisions. Unfortunately, in practice, design
+												documents are often rarely updated, becoming inaccurate, incomplete,
+												and untrustworthy. A better solution is to enable developers to write
+												down design rules which may be checked against code for consistency.
+												But existing rule checkers require learning specialized query languages
+												or program analysis frameworks, offering a barrier to writing
+												project-specific rules. We introduce two new authoring techniques for
+												design rules: snippet-based authoring and semi-natural-language
+												authoring.
+												In snippet-based authoring, developers specify characteristics of
+												elements to match by writing partial code snippets. In semi-natural
+												language authoring, a textual representation offers a representation for
+												understanding design rules and resolving ambiguities, which is
+												bidirectionally synchronized.
+												We implemented these approaches in RulePad.
+											</p>
+											<p>
+												RulePad enables novice developers to write design rules in a code-based
+												template by specifying the elements and conditions on each element.
+												While authoring rules in the tool, RulePad shows the written format of the
+												design rule along with extracted snippets from the actual codebase.
+												The former feature helps developers learn the language used in the tool and
+												later use the semi-natural language interface for authoring design rules.
+												The latter feature allows developers to validate the design rules and
+												make changes if necessary.
+											</p>
+											<p>
+												<em>Sahar Mehrpour, <a href="https://cs.gmu.edu/~tlatoza/"
+																	   rel="noopener">Thomas D. LaToza</a>, Hamed
+													Sarvari.</em>
+											</p>
+											<p>
+												<em>
+													<a href="https://doi.org/10.1145/3368089.3409751" rel="noopener">DOI</a>,
+													<a href="https://cs.gmu.edu/~tlatoza/papers/MehrpourFSE2020.pdf"
+													   rel="noopener">Pre-Print</a>,
+													<a href="https://github.com/devuxd/RulePad"
+													   rel="noopener">Replication Package</a>
+													<br>
+													<a href="https://www.youtube.com/watch?v=u_IjorRovxc"
+													   rel="noopener">Demo (video)</a>,
+													<a href="https://www.youtube.com/watch?v=dQHbItcr2Aw"
+													   rel="noopener">Teaser (2-minute video)</a>,
+													<a href="https://www.youtube.com/watch?v=4rUYS8enKA0"
+													   rel="noopener">Presentation (17-minute video)</a>
+													<br>
+													<a href="https://devx.cs.gmu.edu/tools/rulepad"
+													   rel="noopener">Tool Playground</a>
+												</em>
+											</p>
+										</div>
 
 										<div class="col-md-12 void-animate-box">
 											<h3>Active Documentation (VL/HCC 2019)</h3>
@@ -174,75 +272,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 													<a href="https://cs.gmu.edu/~tlatoza/papers/Active_Documentation.pdf"
 													   rel="noopener">Pre-Print</a>,
 													<a href="files/ActiveDocumentation_VLHCC_ppt.pdf"
-															rel="noopener">Slides</a>,
+													   rel="noopener">Slides</a>,
 													<a href="http://mason.gmu.edu/~smehrpou/ActiveDocumentation"
 													   rel="noopener">Replication Package</a>,
 													<a href="https://www.youtube.com/watch?v=_AT8sNj02Ss"
 													   rel="noopener">Demo</a>
-												</em>
-											</p>
-										</div>
-
-
-										<div class="col-md-12 void-animate-box"  style="margin-top: 50px">
-											<h3>RulePad (ESEC/FSE 2020)</h3>
-
-											<div>
-												<img src="images/RulePad.png"
-													 alt="RulePad" style="width: 100%"/>
-											</div>
-										</div>
-										<div class="col-md-12 void-animate-box">
-											<p>
-												Good documentation offers the promise of enabling developers to easily
-												understand design decisions. Unfortunately, in practice, design
-												documents are often rarely updated, becoming inaccurate, incomplete,
-												and untrustworthy. A better solution is to enable developers to write
-												down design rules which may be checked against code for consistency.
-												But existing rule checkers require learning specialized query languages
-												or program analysis frameworks, offering a barrier to writing
-												project-specific rules. We introduce two new authoring techniques for
-												design rules: snippet-based authoring and semi-natural-language
-												authoring.
-												In snippet-based authoring, developers specify characteristics of
-												elements to match by writing partial code snippets. In semi-natural
-												language authoring, a textual representation offers a representation for
-												understanding design rules and resolving ambiguities, which is
-												bidirectionally synchronized.
-												We implemented these approaches in RulePad.
-											</p>
-											<p>
-												RulePad enable novice developers to write design rules in a code-based
-												template by specifying the elements and conditions on each element.
-												While authoring rules in the tool, RulePad shows the written format of the
-												design rule along with extracted snippets from the actual codebase.
-												The former feature helps developers learn the language used in the tool and
-												later use the semi-natural language interface for authoring design rules.
-												The latter feature allows developers to validate the design rules and
-												make changes if necessary.
-											</p>
-											<p>
-												<em>Sahar Mehrpour, <a href="https://cs.gmu.edu/~tlatoza/"
-																	   rel="noopener">Thomas D. LaToza</a>, Hamed
-													Sarvari.</em>
-											</p>
-											<p>
-												<em>
-													<a href="https://doi.org/10.1145/3368089.3409751" rel="noopener">DOI</a>,
-													<a href="https://cs.gmu.edu/~tlatoza/papers/MehrpourFSE2020.pdf"
-													   rel="noopener">Pre-Print</a>,
-													<a href="https://github.com/devuxd/RulePad"
-													   rel="noopener">Replication Package</a>
-													<br>
-													<a href="https://www.youtube.com/watch?v=u_IjorRovxc"
-													   rel="noopener">Demo (video)</a>,
-													<a href="https://www.youtube.com/watch?v=dQHbItcr2Aw"
-													   rel="noopener">Teaser (2-minute video)</a>,
-													<a href="https://www.youtube.com/watch?v=4rUYS8enKA0"
-													   rel="noopener">Presentation (17-minute video)</a>
-													<br>
-													<a href="https://devx.cs.gmu.edu/tools/rulepad"
-													   rel="noopener">Tool Playground</a>
 												</em>
 											</p>
 										</div>
@@ -268,6 +302,71 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				         <div class="timeline-centered">
 							 <article class="timeline-entry void-animate-box">
 								 <div class="timeline-entry-inner">
+									 <div class="timeline-icon color-1">
+										 <i class="icon-news"></i>
+									 </div>
+
+									 <div class="timeline-label">
+										 <h2><span>Aug 2022</span></h2>
+										 <p>
+											 Out paper "Can Static Analysis Tools Find More Defects?
+											 A Qualitative Study of Design Rule Violations found by Code Review" is accepted at
+											 <a href="https://www.springer.com/journal/10664" rel="noopener">Empirical Software Engineering (EMSE)</a>.
+										 </p>
+									 </div>
+								 </div>
+							 </article>
+							 <article class="timeline-entry void-animate-box">
+								 <div class="timeline-entry-inner">
+									 <div class="timeline-icon color-1">
+										 <i class="icon-news"></i>
+									 </div>
+									 <div class="timeline-label">
+										 <h2><span>March 2022</span></h2>
+										 <p>
+											 I defended my proposal and advanced to candidacy.
+										 </p>
+									 </div>
+								 </div>
+							 </article>
+							 <article class="timeline-entry void-animate-box">
+								 <div class="timeline-entry-inner">
+									 <div class="timeline-icon color-1">
+										 <i class="icon-location-outline"></i>
+									 </div>
+
+									 <div class="timeline-label">
+										 <h2><span>Nov 2021</span></h2>
+										 <p>
+											 I attended the <a href="https://2021.plateau-workshop.org/" rel="noopener">PLATEAU 2021</a>
+											 at Pittsburgh, PA and presented my paper
+											 <a href="https://cs.gmu.edu/~tlatoza/papers/ProgrammingToolsForWorkingWithDesignDecisionsInCode.pdf" rel="noopener">
+												 Programming Tools for Working with Design Decisions in Code</a>.
+											 <a href="files/PLATEAU-2021-slides.pdf">Slides</a>.
+										 </p>
+									 </div>
+								 </div>
+							 </article>
+							 <article class="timeline-entry void-animate-box">
+								 <div class="timeline-entry-inner">
+
+									 <div class="timeline-icon color-1">
+										 <i class="icon-news"></i>
+									 </div>
+
+									 <div class="timeline-label">
+										 <h2><span>Oct 2021</span></h2>
+										 <p>
+											 Our Paper
+											 <a href="https://cs.gmu.edu/~tlatoza/papers/ProgrammingToolsForWorkingWithDesignDecisionsInCode.pdf" rel="noopener">Programming Tools for Working with Design
+											 Decisions in Code</a> is accepted at <a href="https://2021.plateau-workshop.org/" rel="noopener">
+											 PLATEAU (12th annual workshop on the intersection of HCI and PL) 2021</a>.
+										 </p>
+									 </div>
+								 </div>
+							 </article>
+							 <article class="timeline-entry void-animate-box">
+								 <div class="timeline-entry-inner">
 
 									 <div class="timeline-icon color-1">
 										 <i class="icon-video"></i>
@@ -285,7 +384,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									 </div>
 								 </div>
 							 </article>
-
 							 <article class="timeline-entry void-animate-box">
 								 <div class="timeline-entry-inner">
 
@@ -302,7 +400,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									 </div>
 								 </div>
 							 </article>
-
 					         <article class="timeline-entry void-animate-box">
 					            <div class="timeline-entry-inner">
 
