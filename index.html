@@ -105,14 +105,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="about-desc">
 										<h2 class="colorlib-heading">About Me</h2>
 										<p>
-											I am a Ph.D. candidate in Computer Science at the <a href="https://www.cs.gmu.edu" rel="noopener">George Mason</a>
+											I am a Ph.D. candidate in Computer Science at <a href="https://www.cs.gmu.edu" rel="noopener">George Mason</a>
 											University under supervision of
 											<a href="https://cs.gmu.edu/~tlatoza/" rel="noopener">Dr. Thomas LaToza</a>
 											in <a href="https://devx.cs.gmu.edu" rel="noopener">Developer Experience Design Lab</a>.
 										</p>
 										<p>
-											My research is lying in the intersection of software engineering and HCI.
-											I study how developers can work with design decisions and explore the barriers developers face when working with the decisions.
+											My research is lying at the intersection of software engineering and HCI.
+											I study how developers work with design decisions and explore the barriers developers face when working with them.
 											I am researching on tools and approaches to help developers document, follow, and find design decisions.
 										</p>
 									</div>
@@ -132,6 +132,48 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="about-desc">
 										<!--										<span class="heading-meta">About Me</span>-->
 										<h2 class="colorlib-heading">My Research</h2>
+
+										<div class="col-md-12 void-animate-box"  style="margin-top: 50px">
+											<h3>Can static analysis tools find more defects? (EMSE 2023)</h3>
+											<div>
+												<img src="images/EMSE2023.jpg"
+													 alt="EMSE" style="width: 100%"/>
+											</div>
+										</div>
+										<div class="col-md-12 void-animate-box">
+											<p>
+												Static analysis tools find defects in code, checking code against rules to reveal potential defects.
+												Many studies have evaluated these tools by measuring their ability to detect known defects in code.
+												But these studies measure the current state of tools rather than their future potential
+												to find more defects. To investigate the prospects for tools to find more defects,
+												we conducted a study where we formulated each issue raised by a code reviewer as a violation
+												of a rule, which we then compared to what static analysis tools might potentially check.
+												We first gathered a corpus of 1323 defects found through code review. Through a qualitative
+												analysis process, for each defect we identified a violated rule and the type of Static
+												Analysis Tool (SAT) which might check this rule. We found that SATs might, in principle,
+												be used to detect as many as 76% of code review defects, considerably more than current
+												tools have been demonstrated to successfully detect. Among a variety of types of SATs,
+												Style Checkers and AST Pattern Checkers had the broadest coverage of defects, each with
+												the potential to detect 25% of all code review defects. We found that static analysis tools
+												might be able to detect more code review defects by better supporting the creation of
+												project-specific rules. We also investigated the characteristics of code review defects
+												not detectable by traditional static analysis techniques, which to detect might require
+												tools which simulate human judgements about code.
+
+											</p>
+											<p>
+												<em>Sahar Mehrpour, <a href="https://cs.gmu.edu/~tlatoza/"
+																	   rel="noopener">Thomas D. LaToza</a>.</em>
+											</p>
+											<p>
+												<em>
+													<a href="https://doi.org/10.1007/s10664-022-10232-4" rel="noopener">DOI</a>,
+													<a href="files/CanStaticAnalysisDetectMoreDefects.pdf"
+													   rel="noopener">Pre-Print</a>,
+												</em>
+											</p>
+										</div>
+
 
 										<div class="col-md-12 void-animate-box"  style="margin-top: 50px">
 											<h3>Programming Tools for Working with Design Decisions in Code (PLATEAU 2021)</h3>
@@ -309,9 +351,22 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									 <div class="timeline-label">
 										 <h2><span>Aug 2022</span></h2>
 										 <p>
-											 Out paper "Can Static Analysis Tools Find More Defects?
+											 Our paper <a href="https://doi.org/10.1007/s10664-022-10232-4" rel="noopener">"Can Static Analysis Tools Find More Defects?</a>
 											 A Qualitative Study of Design Rule Violations found by Code Review" is accepted at
 											 <a href="https://www.springer.com/journal/10664" rel="noopener">Empirical Software Engineering (EMSE)</a>.
+										 </p>
+									 </div>
+								 </div>
+							 </article>
+							 <article class="timeline-entry void-animate-box">
+								 <div class="timeline-entry-inner">
+									 <div class="timeline-icon color-1">
+										 <i class="icon-news"></i>
+									 </div>
+									 <div class="timeline-label">
+										 <h2><span>September 2022</span></h2>
+										 <p>
+											 I joined Google as a Software Engineering Intern for Fall 2022.
 										 </p>
 									 </div>
 								 </div>
