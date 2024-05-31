@@ -58,7 +58,6 @@
 			<div class="text-center">
 				<div class="author-img" style="background-image: url(images/Photo.jpg);"></div>
 				<h1 id="colorlib-logo"><a href="index.html">Sahar Mehrpour</a></h1>
-				<span class="position">PhD student at George Mason University</span>
 				<span class="position">
 					<a href="https://github.com/saharMehrpour" style="padding: 5px">
 						<img style="height: 20px" alt="GitHub" src="images/github.svg"></a>
@@ -105,15 +104,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="about-desc">
 										<h2 class="colorlib-heading">About Me</h2>
 										<p>
-											I am a Ph.D. candidate in Computer Science at <a href="https://www.cs.gmu.edu" rel="noopener">George Mason</a>
-											University under supervision of
-											<a href="https://cs.gmu.edu/~tlatoza/" rel="noopener">Dr. Thomas LaToza</a>
-											in <a href="https://devx.cs.gmu.edu" rel="noopener">Developer Experience Design Lab</a>.
+											I am a researcher specializing in Software Engineering and Human-Computer Interaction (HCI).
+											My work focuses on understanding how developers make and work with design decisions,
+											and identifying the challenges they encounter in this process.
+											I am dedicated to developing tools and approaches that assist developers in documenting, adhering to,
+											and discovering design decisions.
 										</p>
 										<p>
-											My research is lying at the intersection of software engineering and HCI.
-											I study how developers work with design decisions and explore the barriers developers face when working with them.
-											I am researching on tools and approaches to help developers document, follow, and find design decisions.
+											I earned my Ph.D. in Computer Science from George Mason University in May 2024,
+											under the supervision of <a href="https://cs.gmu.edu/~tlatoza/" rel="noopener">Dr. Thomas LaToza</a>
+											in the <a href="https://devx.cs.gmu.edu" rel="noopener">Developer Experience Design Lab</a>.
 										</p>
 									</div>
 								</div>
@@ -137,28 +137,18 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 											<h3>A Survey of Tool Support for Working with Design Decisions in Code (ACM CSUR 2023)</h3>
 											<div>
 												<img src="images/CSUR2023.jpg"
-													 alt="CSUR" style="width: 100%"/>
+													 alt="CSUR" style="width: 100%; margin-bottom: 20px"/>
 											</div>
 										</div>
 										<div class="col-md-12 void-animate-box">
 											<p>
-												Whenever developers choose among alternative technical approaches, they
-												make a design decision. Collectively, design decisions shape how software
-												implements its requirements and shape non-functional quality attributes
-												such as maintainability, extensibility, and performance. Developers work
-												with design decisions both when identifying, choosing, and documenting
-												alternatives and when later work requires following and understanding
-												previously made design decisions. Design decisions encompass design rationale,
-												describing the alternatives and justification for a design choice, as well
-												as design rules, describing the constraints imposed by specific alternatives.
-												This article summarizes and classifies research on these activities,
-												examining different approaches through which tools may support developers
-												in working with design decisions in code. We focus both on the technical
-												aspects of tools as well as the human aspects of how tools support developers.
-												Our survey identifies goals developers have in working with design decisions
-												throughout the lifecycle of design decisions. We also examine the potential
-												support tools may offer developers in achieving these goals and the
-												challenges in offering better support.
+												Developers make design decisions when choosing technical approaches,
+												shaping software implementation and quality attributes.
+												They work with these decisions by identifying, choosing, documenting,
+												following, and understanding them. Design decisions include design rationale and rules.
+												This article reviews research on managing design decisions in code,
+												focusing on how tools can support developers. It discusses developers' goals,
+												challenges, and potential tool support.
 											</p>
 											<p>
 												<em>Sahar Mehrpour, <a href="https://cs.gmu.edu/~tlatoza/"
@@ -179,29 +169,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 											<h3>Can static analysis tools find more defects? (EMSE 2023)</h3>
 											<div>
 												<img src="images/EMSE2023.jpg"
-													 alt="EMSE" style="width: 100%"/>
+													 alt="EMSE" style="width: 100%; margin-bottom: 20px"/>
 											</div>
 										</div>
 										<div class="col-md-12 void-animate-box">
 											<p>
-												Static analysis tools find defects in code, checking code against rules to reveal potential defects.
-												Many studies have evaluated these tools by measuring their ability to detect known defects in code.
-												But these studies measure the current state of tools rather than their future potential
-												to find more defects. To investigate the prospects for tools to find more defects,
-												we conducted a study where we formulated each issue raised by a code reviewer as a violation
-												of a rule, which we then compared to what static analysis tools might potentially check.
-												We first gathered a corpus of 1323 defects found through code review. Through a qualitative
-												analysis process, for each defect we identified a violated rule and the type of Static
-												Analysis Tool (SAT) which might check this rule. We found that SATs might, in principle,
-												be used to detect as many as 76% of code review defects, considerably more than current
-												tools have been demonstrated to successfully detect. Among a variety of types of SATs,
-												Style Checkers and AST Pattern Checkers had the broadest coverage of defects, each with
-												the potential to detect 25% of all code review defects. We found that static analysis tools
-												might be able to detect more code review defects by better supporting the creation of
-												project-specific rules. We also investigated the characteristics of code review defects
-												not detectable by traditional static analysis techniques, which to detect might require
-												tools which simulate human judgements about code.
-
+												Static analysis tools check code for defects by comparing it against predefined rules.
+												Previous studies have assessed these tools based on their ability to find known defects,
+												but not their potential for future defect detection.
+												To explore this potential, a study formulated code reviewer comments as rule violations and
+												compared them to rules static analysis tools could check.
 											</p>
 											<p>
 												<em>Sahar Mehrpour, <a href="https://cs.gmu.edu/~tlatoza/"
@@ -222,23 +199,17 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 											<h3>Programming Tools for Working with Design Decisions in Code (PLATEAU 2021)</h3>
 											<div>
 												<img src="images/PLATEAU-2021.png"
-													 alt="PLATEAU" style="width: 100%"/>
+													 alt="PLATEAU" style="width: 100%; margin-bottom: 20px"/>
 											</div>
 										</div>
 										<div class="col-md-12 void-animate-box">
 											<p>
-												When writing code, developers make design decisions by choosing between alternatives.
-												Subsequent work with code requires reasoning about these design decisions, ensuring
-												their code is consistent and answering rationale questions about why they were made.
-												While documentation might help, it is rarely updated and often incomplete and untrustworthy.
-												We propose a new form of documentation which is active, making design decisions checkable
-												and offering immediate feedback on violations as they occur. Active documentation helps
-												developers reason about design decisions by offering explanations and linked code snippets
-												illustrating how to follow a design decision. To ensure active documentation is easy
-												to create and maintain, new ways to create and edit checkable design decisions are needed.
-												We offer a vision for active documentation, offer evidence for its potential,
-												describe several techniques to achieve it, and suggest future directions for programming
-												tools to better support it.
+												Design decisions are integral to coding, involving choices among alternatives.
+												However, traditional documentation is often inadequate, being incomplete and outdated.
+												To address this, active documentation is proposed, allowing for real-time checking
+												and immediate feedback on violations. It includes explanations and code snippets
+												to illustrate decisions. New methods for creating and editing checkable decisions
+												are suggested to make active documentation practical.
 											</p>
 											<p>
 												<em>Sahar Mehrpour, <a href="https://cs.gmu.edu/~tlatoza/"
@@ -258,37 +229,20 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 											<h3>RulePad (ESEC/FSE 2020)</h3>
 											<div>
 												<img src="images/RulePad.png"
-													 alt="RulePad" style="width: 100%"/>
+													 alt="RulePad" style="width: 100%; margin-bottom: 20px"/>
 											</div>
 										</div>
 										<div class="col-md-12 void-animate-box">
 											<p>
-												Good documentation offers the promise of enabling developers to easily
-												understand design decisions. Unfortunately, in practice, design
-												documents are often rarely updated, becoming inaccurate, incomplete,
-												and untrustworthy. A better solution is to enable developers to write
-												down design rules which may be checked against code for consistency.
-												But existing rule checkers require learning specialized query languages
-												or program analysis frameworks, offering a barrier to writing
-												project-specific rules. We introduce two new authoring techniques for
-												design rules: snippet-based authoring and semi-natural-language
-												authoring.
-												In snippet-based authoring, developers specify characteristics of
-												elements to match by writing partial code snippets. In semi-natural
-												language authoring, a textual representation offers a representation for
-												understanding design rules and resolving ambiguities, which is
-												bidirectionally synchronized.
-												We implemented these approaches in RulePad.
-											</p>
-											<p>
-												RulePad enables novice developers to write design rules in a code-based
-												template by specifying the elements and conditions on each element.
-												While authoring rules in the tool, RulePad shows the written format of the
-												design rule along with extracted snippets from the actual codebase.
-												The former feature helps developers learn the language used in the tool and
-												later use the semi-natural language interface for authoring design rules.
-												The latter feature allows developers to validate the design rules and
-												make changes if necessary.
+												Effective documentation aims to aid developers in understanding design choices,
+												yet it frequently becomes outdated and unreliable.
+												A potential solution involves developers writing design rules that can check code for consistency.
+												However, existing rule checkers often require learning specialized query languages
+												or program analysis frameworks, which can be a barrier to creating project-specific rules.
+												Two new authoring techniques for design rules have been introduced:
+												snippet-based authoring and semi-natural-language authoring.
+												These approaches, implemented in RulePad, enable developers to write
+												and validate design rules more easily, offering a way to keep documentation up to date and reliable.
 											</p>
 											<p>
 												<em>Sahar Mehrpour, <a href="https://cs.gmu.edu/~tlatoza/"
@@ -321,30 +275,19 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 											<div>
 												<img src="images/ActiveDocumentation.png"
-													 alt="Active Documentation" style="width: 100%"/>
+													 alt="Active Documentation" style="width: 100%; margin-bottom: 20px"/>
 											</div>
 										</div>
 										<div class="col-md-12 void-animate-box">
 											<p>
-												Good documentation has long been argued to be key to helping developers
-												write code more quickly and consistently
-												with design decisions, but is left largely disconnected from code. We
-												propose a method for active documentation, where design
-												decisions are made explicit as design rules and checked against code.
-												Developers can discover how to follow a design rule by
-												navigating to examples in their codebase. After editing code, developers
-												receive immediate feedback about which design rules
-												are satisfied and which are violated, notifying developers who miss
-												design decisions about the existence of these design decisions.
-											</p>
-
-											<p>
-												ActiveDocumentation is a tool that helps developers follow design decisions
-												by making the constraints of decisions explicit and checkable as AST queries.
-												ActiveDocumentation checks code for conformance constantly and notifies the
-												users about violations of decisions. It also extracts example code snippets
-												that follow the decisions enabling developers to use them as references and
-												learn how to follow the decisions.
+												Good documentation is crucial for developers to write code quickly
+												and consistently with design decisions. However, traditional documentation
+												is often disconnected from code. Active documentation proposes a method
+												where design decisions are documented as rules and checked against the code.
+												Developers can navigate to code examples in their project to understand
+												and follow these rules. ActiveDocumentation is a tool that enforces
+												these rules by checking code against AST queries, providing immediate feedback
+												on violations and offering code snippets as examples for developers to follow.
 											</p>
 											<p>
 												<em>Sahar Mehrpour, <a href="https://cs.gmu.edu/~tlatoza/"
@@ -391,6 +334,20 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 										 <i class="icon-news"></i>
 									 </div>
 									 <div class="timeline-label">
+										 <h2><span>May 2024</span></h2>
+										 <p>
+											 I successfully defended my dissertation.
+										 </p>
+									 </div>
+								 </div>
+							 </article>
+
+							 <article class="timeline-entry void-animate-box">
+								 <div class="timeline-entry-inner">
+									 <div class="timeline-icon color-1">
+										 <i class="icon-news"></i>
+									 </div>
+									 <div class="timeline-label">
 										 <h2><span>July 2023</span></h2>
 										 <p>
 											 Our paper <a href="https://doi.org/10.1145/3607868" rel="noopener">"A Survey of Tool Support for
@@ -408,7 +365,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									 <div class="timeline-label">
 										 <h2><span>June 2023</span></h2>
 										 <p>
-											 I joined <img alt="Google" src="images/GOOG_BIG.svg" style="height: 1.1em"/> as a Software Engineering Intern for Summer 2023.
+											 I joined <img alt="Google" src="images/GOOG_BIG.svg" style="height: 1.1em"/>
+											 as a Software Engineering Intern for Summer 2023.
 										 </p>
 									 </div>
 								 </div>
@@ -620,7 +578,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="panel panel-default">
 										<div class="panel-heading" role="tab" id="headingOne">
 											<h4 class="panel-title">
-												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">PhD in Computer Science (2017 - Now)
+												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">PhD in Computer Science (2024)
 												</a>
 											</h4>
 										</div>
@@ -628,7 +586,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 											<div class="panel-body">
 												<div class="row">
 													<div class="col-md-6">
-														I've started my PhD studies at GMU in 2017.
+														I defended my dissertation in May 2024.
 													</div>
 												</div>
 											</div>
@@ -686,8 +644,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				</div>
 			</section>
 
-
-
 			<section class="colorlib-contact" data-section="CV">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -710,7 +666,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				</div>
 			</section>
 
-
 			<section class="colorlib-contact" data-section="contact">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -725,20 +680,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<i class="icon-at"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a href="#">smehrpou AT gmu DOT edu</a></p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm void-animate-box">
-								<div class="colorlib-icon">
-									<i class="icon-map"></i>
-								</div>
-								<div class="colorlib-text">
-									<p>
-										Room 4404,
-										<a href="http://cs.gmu.edu/about/contact-info/">Engineering Building</a>, George Mason
-										University, Fairfax, VA
-									</p>
+									<p><a href="#">smehrpou AT gmu DOT edu</a><br>
+									<a href="#">sahar DOT mehrpour AT gmail DOT com</a></p>
 								</div>
 							</div>
 						</div>
