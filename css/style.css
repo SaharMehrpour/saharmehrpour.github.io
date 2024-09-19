@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -1428,3 +1428,11 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+.paper-item {
+  margin-bottom: 10px;
+}
+
+.paper-title {
+  font-weight: bold;
+}
